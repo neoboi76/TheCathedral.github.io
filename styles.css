@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Cormorant:wght@300&family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Cormorant', sans-serif;
+  text-transform: initial;;
+  text-decoration: #fff;
+}
+
+.logo {
+  object-fit: cover;
+}
+
+.top-bar-container{
+  display: flex;
+  padding: 16px;
+  background-color: #fff;
+
+}
+
+.primary-nav {
+  display: flex;
+
+}
+
+.menu-page {
+  padding-right: 8px;
+}
+
+.main {
+  color: #fff;
+  justify-content: center;
+}
+
+.topic-title {
+  margin: 5rem;
+  font-size: 1.3rem;
+  width: 87%;
+  padding: 2rem 3rem 3rem 5rem;
+  text-align: center;
+  font-family: 'Cormorant', sans-serif;
+}
+
+
+
+
+.subtitle-1 {
+  font-size: 1.5rem;
+  
+}
+
+.par-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.1rem 33rem 5rem 33rem;
+  line-height: 1.5;
+  font-size: 21px;
+  color: #fff;
+  text-shadow: #fff 0px 0px 1px
+
+}
+
+.dir-quote {
+  padding-left: 40px;
+  padding-right: 20px;
+  color: #fff;
+}
+
+.references-1 {
+  margin-right: 36.5rem;
+  text-shadow: none;
+}
+
+.par-ref {
+  padding-left: 8rem;
+}

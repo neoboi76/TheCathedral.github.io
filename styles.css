@@ -220,7 +220,8 @@ main {
 .about p {
   display: block;
   flex-flow: column wrap;
-  font-weight: bolder;
+  font-weight: 550;
+  text-shadow: #ffffff 0.5px 0.5px 0.5px;
   text-align: left;
   color: #fff;
   margin-top: 2em; 
@@ -388,7 +389,7 @@ footer {
   display: flex;
   flex-direction: column;
   background-color: #FFF;
-  min-height:4vh;
+  min-height:7vh;
   max-width: 100%;
   color: #000000; 
   font-weight: bold;

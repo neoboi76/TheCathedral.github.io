@@ -220,14 +220,15 @@ main {
 .about p {
   display: block;
   flex-flow: column wrap;
+  text-align: left;
   font-weight: 550;
   text-shadow: #ffffff 0.5px 0.5px 0.5px;
-  text-align: left;
-  color: #fff;
-  margin-top: 2em; 
-  /* border: 1px white solid;  */
+  color: #ffffff;
+  margin-top: 1em; 
+  /* border: 1px white solid */;  
   width: 40%;
   font-size: 1.7em;
+  margin-left: 0.5em;
   text-align: justify;
 }  
 

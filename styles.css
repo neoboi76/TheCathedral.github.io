@@ -229,7 +229,7 @@ main {
   width: 40%;
   font-size: 1.7em;
   margin-left: 0.5em;
-  text-align: justify;
+  text-align: justify; 
 }  
 
 .about p a {
@@ -254,11 +254,27 @@ main {
 @media all and (max-width: 649px){
   .about p {
   
-    width: 75%;
+    width: 90%;
+    text-align: center;
+    text-align: left;
+    text-align: justify;
+    padding: 0;
+    padding-top: 1em;
+    margin: 0;
+  }
+}
+
+@media all and (max-width: 450px){
+  .about p {
+  
+    width: 90%;
     text-align: center;
     text-align: left;
     text-align: justify;
     font-size: 1.5em;
+    padding: 0;
+    padding-top: 1em;
+    margin: 0;
   }
 }
 
@@ -272,7 +288,8 @@ main {
   width: 100%;
   min-height: 100vh;
   margin: auto;
-  margin: 1px green solid;
+  border: 1px green solid;
+  padding: auto;
   z-index: 1;
 }
 
@@ -283,7 +300,6 @@ entry-1 h1 {
 
 .entry-1 {
   display: flex;
-  flex-direction: column;
   flex-flow: column wrap;
   margin: auto;
   margin-top: 4rem;
@@ -292,6 +308,7 @@ entry-1 h1 {
   /* border: 1px white solid;  */
   justify-content: center;
   align-items: center;
+  text-align: center;
   overflow: hidden;
 }
 
@@ -329,40 +346,57 @@ entry-1 h1 {
   display: block;
   flex-flow: column wrap;
   text-align: left;
+  justify-content: center;
   font-weight: 550;
   text-shadow: #ffffff 0.5px 0.5px 0.5px;
   color: #ffffff;
   margin-top: 1em; 
-  /* border: 1px white solid */;  
+  border: 1px white solid ;  
   width: 40%;
   font-size: 1.7em;
-  margin-left: 0.5em;
   text-align: justify;
+  margin-left: 0;
 }
 
 
 @media all and (max-width: 649px){
   .entry-1 h1 {
-    font-size: 2.5em;
-  }
-}
-
-@media all and (max-width: 450px){
-  .entry-1 h1 {
-    font-size: 1.4em;
+    font-size: 2em;
     width: 90%;
   }
+}
+
+@media all and (max-width: 450px){
+  .entry-1 h1 {
+    font-size: 1.5em;
+    width: 95%;
+  }
+
+}
+
+@media all and (max-width: 350px){
+  .entry-1 h1 {
+    font-size: 1em;
+    width: 95%;
+  }
 
 }
 @media all and (max-width: 649px){
   .entry-1 .subtitle {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 }
 
 @media all and (max-width: 450px){
   .entry-1 .subtitle {
-    font-size: 1.4em;
+    font-size: 1em;
+    width: 90%;
+  }
+}
+
+@media all and (max-width: 350px){
+  .entry-1 .subtitle {
+    font-size: 0.9em;
     width: 90%;
   }
 }
@@ -374,28 +408,36 @@ entry-1 h1 {
     width: 80%;
     text-align: center;
     text-align: left;
-    text-align: justify
+    text-align: justify;
+  
   }
 }
 
 @media all and (max-width: 649px){
   .entry-1 p {
   
-    width: 80%;
+    width: 85%;
     text-align: center;
     text-align: left;
-    text-align: justify;
+    text-align: justify; 
+    
   }
 }
 
 @media all and (max-width: 450px){
   .entry-1 p {
   
-    width: 75%;
+    width: 80%;
     text-align: center;
     text-align: left;
     text-align: justify;
     font-size: 1.5em;
+    
+    
+    
+    
+    
+    
   }
 }
 

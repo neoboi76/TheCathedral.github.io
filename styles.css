@@ -288,7 +288,7 @@ main {
   width: 100%;
   min-height: 100vh;
   margin: auto;
-  border: 1px green solid;
+  /* border: 1px green solid; */
   padding: auto;
   z-index: 1;
 }
@@ -351,7 +351,7 @@ entry-1 h1 {
   text-shadow: #ffffff 0.5px 0.5px 0.5px;
   color: #ffffff;
   margin-top: 1em; 
-  border: 1px white solid ;  
+  /* border: 1px white solid ;  */ 
   width: 40%;
   font-size: 1.7em;
   text-align: justify;

@@ -169,13 +169,13 @@ main {
 
 @media all and (max-width: 649px){
   .intro h1 {
-    font-size: 50px;
+    font-size: 45px;
   }
   .intro p {
-    font-size: 30px;
+    font-size: 25px;
   }
   .intro b {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 
@@ -212,7 +212,7 @@ main {
 
 @media all and (max-width: 649px){
   .about h2 {
-    font-size: 2.5em;
+    font-size: 2.3em;
   }
 }
 
@@ -247,7 +247,18 @@ main {
 @media all and (max-width: 649px){
   .about p {
   
-    width: 95%;
+    width: 80%;
+  }
+}
+
+@media all and (max-width: 649px){
+  .about p {
+  
+    width: 75%;
+    text-align: center;
+    text-align: left;
+    text-align: justify;
+    font-size: 1.5em;
   }
 }
 
@@ -336,9 +347,10 @@ entry-1 h1 {
   }
 }
 
-@media all and (max-width: 400px){
+@media all and (max-width: 450px){
   .entry-1 h1 {
-    font-size: 1.5em;
+    font-size: 1.4em;
+    width: 90%;
   }
 
 }
@@ -348,9 +360,10 @@ entry-1 h1 {
   }
 }
 
-@media all and (max-width: 400px){
+@media all and (max-width: 450px){
   .entry-1 .subtitle {
-    font-size: 1.5em;
+    font-size: 1.4em;
+    width: 90%;
   }
 }
 
@@ -375,6 +388,17 @@ entry-1 h1 {
   }
 }
 
+@media all and (max-width: 450px){
+  .entry-1 p {
+  
+    width: 75%;
+    text-align: center;
+    text-align: left;
+    text-align: justify;
+    font-size: 1.5em;
+  }
+}
+
 .entry-1 .indent {
   margin-left: 4em;
   padding-right: 4em;
@@ -388,16 +412,35 @@ entry-1 h1 {
 
 footer {
   display: flex;
-  flex-direction: column;
+  flex-flow: column wrap;
   background-color: #FFF;
-  min-height:7vh;
-  max-width: 100%;
+  background-repeat: no-repeat;
+  min-height:10vh;
+  width: 100%;
   color: #000000; 
   font-weight: bold;
   z-index: 1;
   font-size: 24px;
+  position: absolute;
+  overflow: hidden;
+}
+
+@media all and (max-width: 400px){
+  footer {
+    font-size: 16px;
+  }
+}
+
+@media all and (max-width: 195px){
+  footer {
+    display: none;
+  }
+  footer div{
+    display: none;
+  }
 }
   
 footer div {
   margin: auto;
+  overflow: hidden;
  }

@@ -123,7 +123,6 @@ main {
 
 .intro {
   display: flex;
-  flex-direction: column;
   flex-flow: column wrap;
   margin: auto;
   margin-top: 4rem;
